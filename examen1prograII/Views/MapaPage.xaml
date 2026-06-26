@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+    x:Class="examen1prograII.Views.MapaPage"
+    Title="Mapa">
+
+    <VerticalStackLayout>
+
+        <maps:Map
+            x:Name="mapa"
+            HeightRequest="500" />
+
+        <Button
+            Text="Compartir Imagen"
+            Margin="10"
+            Clicked="CompartirImagen"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
