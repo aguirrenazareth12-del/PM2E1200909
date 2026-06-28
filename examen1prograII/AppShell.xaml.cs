@@ -1,19 +1,21 @@
 ﻿using examen1prograII.Views;
 
-namespace examen1prograII;
-
-public partial class AppShell : Shell
+namespace examen1prograII
 {
-    public AppShell()
+    public partial class AppShell : Shell
     {
-        InitializeComponent();
+        public AppShell()
+        {
+            InitializeComponent();
 
-        Routing.RegisterRoute(
-            nameof(ListaPage),
-            typeof(ListaPage));
+            Routing.RegisterRoute(
+                nameof(ListaPage),
+                typeof(ListaPage));
 
-        Routing.RegisterRoute(
-            nameof(MapaPage),
-            typeof(MapaPage));
+         
+            Routing.RegisterRoute(
+                nameof(SitioMapaPage),
+                typeof(SitioMapaPage));
+        }
     }
 }

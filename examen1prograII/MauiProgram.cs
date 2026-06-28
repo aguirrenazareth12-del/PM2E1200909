@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls.Maps;
-
-namespace examen1prograII;
+﻿namespace examen1prograII;
 
 public static class MauiProgram
 {

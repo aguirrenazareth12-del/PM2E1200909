@@ -15,7 +15,7 @@
                 <Frame
                     Margin="10"
                     Padding="10"
-                    BorderColor="#F8BBD0">
+                    BorderColor="#455A64">
 
                     <VerticalStackLayout Spacing="8">
 
@@ -36,20 +36,23 @@
                             Text="{Binding Longitud}"/>
 
                         <Button
-                            Text="🗺 Ver Mapa"
-                            BackgroundColor="#F8BBD0"
+                            Text="Ver Mapa"
+                            BackgroundColor="#0D47A1"
+                            TextColor="White"
                             CommandParameter="{Binding .}"
                             Clicked="VerMapa"/>
 
                         <Button
-                            Text="✏ Editar"
-                            BackgroundColor="#F8BBD0"
+                            Text="Editar"
+                            BackgroundColor="#0D47A1"
+                            TextColor="White"
                             CommandParameter="{Binding .}"
                             Clicked="EditarSitio"/>
 
                         <Button
-                            Text="🗑 Eliminar"
-                            BackgroundColor="#F8BBD0"
+                            Text="Eliminar Casa"
+                            BackgroundColor="#C62828"
+                            TextColor="White"
                             CommandParameter="{Binding .}"
                             Clicked="EliminarSitio"/>
 

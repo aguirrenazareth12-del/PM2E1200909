@@ -66,9 +66,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.80" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.9" />
-		<PackageReference Include="Microsoft.Maui.Controls.Maps" Version="10.0.80" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
 	</ItemGroup>
 
@@ -79,8 +77,8 @@
 	  <Compile Update="Views\ListaPage.xaml.cs">
 	    <DependentUpon>ListaPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\MapaPage.xaml.cs">
-	    <DependentUpon>MapaPage.xaml</DependentUpon>
+	  <Compile Update="Views\SitioMapaPage.xaml.cs">
+	    <DependentUpon>SitioMapaPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -91,7 +89,7 @@
 	  <MauiXaml Update="Views\ListaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\MapaPage.xaml">
+	  <MauiXaml Update="Views\SitioMapaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
