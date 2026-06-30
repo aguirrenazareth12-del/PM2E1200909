@@ -48,34 +48,34 @@
             <Button
                 Text="Tomar Foto"
                 Clicked="TomarFoto"
-                BackgroundColor="#37474F"
+                BackgroundColor="#808080"
                 TextColor="White"
                 CornerRadius="15"/>
 
             <Button Text="Seleccionar foto desde la galería" 
         Clicked="SeleccionarDeGaleria"
-        BackgroundColor="#37474F" 
+        BackgroundColor="#808080" 
         TextColor="White"
         Margin="10,5"/>
 
             <Button
                 Text="Obtener Ubicación"
                 Clicked="ObtenerUbicacion"
-                BackgroundColor="#455A64"
+                BackgroundColor="#808080"
                 TextColor="White"
                 CornerRadius="15"/>
 
             <Button
                 Text="Guardar Sitio"
                 Clicked="GuardarSitio"
-                BackgroundColor="#455A64"
+                BackgroundColor= "#808080"
                 TextColor="White"
                 CornerRadius="15"/>
 
             <Button
                 Text="Ver Lista"
                 Clicked="IrLista"
-                BackgroundColor="#455A64"
+                BackgroundColor="#808080"
                 TextColor="White"
                 CornerRadius="15"/>
 
